@@ -17,13 +17,13 @@
 v16.10.0, yarn
 ```
 
-## Install
+## 1. Install
 
 ```sh
 yarn install
 ```
 
-## Build for production
+## 2. Build for production
 
 ```sh
 yarn build
@@ -31,7 +31,7 @@ yarn build
 
 ## Usage
 
-### Production
+### 3. Production
 ```sh
 yarn start
 ```
@@ -40,7 +40,7 @@ yarn start
 Please wait and keep terminal open. Products Array will be printed.
 ```
 
-## Run tests
+## 4. Run tests
 
 ```sh
 yarn test
