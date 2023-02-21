@@ -8,7 +8,7 @@ export const computeProductList = (input: ParserInput): Product[] => {
   const result = [];
   for (let i = 0; i < input.title.length; i++) {
     const item = {};
-    Object.entries(input).forEach(([key, value], index) => {
+    Object.entries(input).forEach(([key]) => {
       item[key] = input[key][i];
       /**
        * To separate price to discount, Save word is being used.
@@ -36,5 +36,3 @@ export const computeProductList = (input: ParserInput): Product[] => {
     discount: item.discount,
   }));
 };
-
-module.exports = { computeProductList, extractPrice };
